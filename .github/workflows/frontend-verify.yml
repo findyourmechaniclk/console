@@ -1,6 +1,7 @@
 ---
 name: "Frontend Lint & Compile check"
 on:
+  workflow_dispatch:
   workflow_call:
 env:
   CI: true
